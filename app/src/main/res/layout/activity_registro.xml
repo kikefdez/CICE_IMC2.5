@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/fondoRegistro"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <EditText
+            android:id="@+id/cajaNombreREG"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/fondoRegistro"
+            android:hint="@string/hintRegistroNombre"
+            android:padding="10dp"
+            android:inputType="textCapWords"
+            android:textColor="@color/textoRegistro"
+            android:textColorHint="@color/hintRegistro" />
+
+        <EditText
+            android:id="@+id/cajaLoginREG"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/fondoRegistro"
+            android:hint="@string/hintRegistroLogin"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/textoRegistro"
+            android:textColorHint="@color/hintRegistro" />
+
+        <EditText
+            android:id="@+id/cajaPasswordREG"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/fondoRegistro"
+            android:hint="@string/hintRegistroPassword"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/textoRegistro"
+            android:textColorHint="@color/hintRegistro" />
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btnRegistrarse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="#ea4c88"
+            android:text="@string/Registro"
+            android:textColor="@color/fondoAPK" />
+
+        <CheckBox
+            android:id="@+id/checkRecordarmeREG"
+            android:text="@string/Recordarme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:textColor="@color/fondoAPK" />
+    </LinearLayout>
+</LinearLayout>

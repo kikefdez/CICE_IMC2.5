@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/fondoLogin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <EditText
+            android:id="@+id/cajaLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/fondoAPK"
+            android:hint="@string/hintLogin"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/textoLogin"
+            android:textColorHint="@color/hintLogin" />
+
+        <EditText
+            android:id="@+id/cajaPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/fondoAPK"
+            android:hint="@string/hintPassword"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/textoLogin"
+            android:textColorHint="@color/hintLogin" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/fondoBtnLogin"
+            android:text="@string/Login"
+            android:textColor="@color/fondoLogin" />
+
+        <CheckBox
+            android:id="@+id/checkRecordarme"
+            android:text="@string/Recordarme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:textColor="@color/fondoAPK" />
+
+        <Button
+            android:id="@+id/btnRegistro"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:text="@string/Registrarse"
+            android:textAllCaps="false"
+            android:textColor="@color/fondoAPK"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

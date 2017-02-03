@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- TEXTOS ASOCIADOS A MAINACTIVITY -->
+    <string name="app_name">Calculadora IMC</string>
+    <string name="Introduccion">El índice de masa corporal es la relación entre el peso y la estatura del individuo.\nPermite calcular si tiene el peso correcto</string>
+
+    <string name="Altura">Altura</string>
+    <string name="Peso">Peso</string>
+    <string name="Calcular">Calcular</string>
+    <string name="Salir">Salir</string>
+
+    <string name="respDesnutrido">Desnutrido</string>
+    <string name="respBajoPeso">Bajo Peso</string>
+    <string name="respNormal">Normal</string>
+    <string name="respSobrePeso">Sobrepeso</string>
+    <string name="respObeso">Obeso</string>
+    <string name="respError">Lo sentimos, los datos introducidos no son correctos</string>
+
+    <string name="respErrorAltura">Lo sentimos, es necesario que introduzca la altura.</string>
+    <string name="respErrorPeso">Lo sentimos, les necesario que introduzca el peso.</string>
+    <string name="respErrorAmbos">Lo sentimos, es necesario que introduzca ambos datos.</string>
+
+    <string name="Descripcion">Desc</string>
+    <string name="cabeceraIndice">Ha obtenido un valor de </string>
+
+    <!-- TEXTOS ASOCIADOS A ACTIVIDAD LOGIN -->
+    <string name="hintLogin">introduzca su usuario</string>
+    <string name="hintPassword">introduzca su contraseña</string>
+    <string name="Login">Acceder</string>
+    <string name="Registrarse">¿Todavía no tienes usuario? REGISTRATE</string>
+
+    <string name="respErrorLoginAmbos">Lo sentimos, es necesario que introduzca ambos datos para autenticarse.</string>
+    <string name="respErrorLoginUsuario">Lo sentimos, es necesario que introduzca su usario.</string>
+    <string name="respErrorLoginPassword">Lo sentimos, es necesario que introduzca su password.</string>
+    <string name="respFailLongin">Lo sentimos, no existe ningún usuario con esos datos.</string>
+
+    <string name="Recordarme">Recordar mi usuario</string>
+
+    <!-- TEXTOS ASOCIADOS A ACTIVIDAD REGISTRO -->
+    <string name="hintRegistroLogin">introduzca su login</string>
+    <string name="hintRegistroPassword">introduzca su contraseña</string>
+    <string name="hintRegistroNombre">introduzca su nombre</string>
+    <string name="Registro">Registrarse</string>
+
+    <string name="respErrorRegistro">Lo sentimos, es necesario que cumplimentar todos los campos para realizar el registro.</string>
+
+</resources>

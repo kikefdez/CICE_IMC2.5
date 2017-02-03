@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- COLORES GENERALES -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fondoAPK">#FFFFFF</color>
+
+    <!-- COLORES ASOCIADOS A ACTIVIDAD LOGIN -->
+    <color name="fondoLogin">#26ae90</color>
+    <color name="textoLogin">#222222</color>
+    <color name="fondoBtnLogin">#eceef1</color>
+    <color name="hintLogin">#999999</color>
+
+    <!-- COLORES ASOCIADOS A ACTIVIDAD REGISTRO -->
+    <color name="fondoRegistro">#2e3237</color>
+
+    <color name="textoRegistro">#888888</color>
+    <color name="fondoCampoRegistro">#3b4148</color>
+    <color name="hintRegistro">#5e6266</color>
+
+</resources>
